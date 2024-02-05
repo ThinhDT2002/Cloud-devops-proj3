@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-   name: udanalytics
+   name: project3-uda
 spec:
    selector:
-      service: udanalytics
+      service: project3-uda
    ports:
       - name: "5153"
         protocol: TCP
